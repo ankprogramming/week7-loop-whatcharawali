@@ -18,8 +18,12 @@ int main () {
   2       9     18
   2       10    20
   2       11    22
-  2       12    24 
+  2       12    24
 
   */
-
+ cout << "Base\tMul\tResult\t" << endl;
+ int i;
+ for (i =1; i <= 12; i++) {
+    cout << "2\t" << i << "\t" << 2*i << endl;
+ }
 }
